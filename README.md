@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ritik05777/LeetCode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ritik05777/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/ritik05777/LeetCode/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/ritik05777/LeetCode/tree/master/0075-sort-colors) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/ritik05777/LeetCode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/ritik05777/LeetCode/tree/master/0169-majority-element) |
 | [0560-subarray-sum-equals-k](https://github.com/ritik05777/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
