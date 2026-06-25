@@ -1,32 +1,25 @@
 class Solution {
     public boolean check(int[] nums) {
-        int drop=0;
         int n=nums.length;
-        for(int i=1;i<nums.length;i++){
-            if(nums[i]>=nums[i-1]){ 
-                
-            }
+        boolean ans=false;
+        int[] b=Arrays.copyOf(nums,n);
+        Arrays.sort(nums);
+         int cnt=0;
+         for(int x=0;x<n;x++){
+            cnt=0;
+            for(int i=0;i<n;i++){
+                if(b[i]==nums[(i+x)%n]){
+                    cnt++;
+                     if(cnt==n){
+                     ans=true;
+        }
+                    
+
+                }
+            }   
             
-            if(nums[i]<nums[i-1]){
-                drop++;
-            }
+         }
 
-        }
-        if((nums[0]>=nums[n-1])&& (drop==0|| drop==1 )){
-            return true;
-        }
-        else if(drop==0) {
-            return true;
-        }
-       
-        else{
-            return false;
-        }
-        
-        
-
-        
-        
+        return ans;
     }
-   
 }
