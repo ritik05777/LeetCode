@@ -3,6 +3,9 @@ class Solution {
         int n=nums.length;
         int j=1;
         int i=0;
+        if(n==0){
+            return 0;
+        }
         if(n>=2){
         for(j=1;j<n;j++){
             if(nums[i]!=nums[j]){
