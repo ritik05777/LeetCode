@@ -16,12 +16,15 @@ class Solution {
                 }
                 if(sum<target){
                     left++;
-                } else{
+                } 
+                else{
                     right--;
                 }
                 if(sum==target){
                     return target;
                 }
+                
+
                 
             }
 
