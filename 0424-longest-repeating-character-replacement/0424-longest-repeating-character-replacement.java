@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
     public int frequency(int freq[]){
         int max=-1;
         for(int i=0;i<freq.length;i++){
