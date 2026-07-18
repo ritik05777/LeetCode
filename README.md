@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/ritik05777/LeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/ritik05777/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ritik05777/LeetCode/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/ritik05777/LeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ritik05777/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ritik05777/LeetCode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/ritik05777/LeetCode/tree/master/0048-rotate-image) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ritik05777/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ritik05777/LeetCode/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/ritik05777/LeetCode/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ritik05777/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ritik05777/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/ritik05777/LeetCode/tree/master/0031-next-permutation) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ritik05777/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ritik05777/LeetCode/tree/master/0016-3sum-closest) |
+| [0018-4sum](https://github.com/ritik05777/LeetCode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/ritik05777/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ritik05777/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/ritik05777/LeetCode/tree/master/0169-majority-element) |
