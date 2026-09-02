@@ -7,30 +7,32 @@ class Pair{
     }
 }
 class Solution {
-    public double[] distance(int [][] points,int m){
-        double [] dist=new double[m];
-      for(int i=0;i<m;i++){
-        double x=points[i][0];
-        double y=points[i][1];
-        double d=Math.sqrt((x*x)+(y*y));
-        dist[i]=d;
-      }
-      return dist;
-    }
+    //public double[] distance(int [][] points,int m){
+     //   double [] dist=new double[m];
+    //   for(int i=0;i<m;i++){
+    //     double x=points[i][0];
+    //     double y=points[i][1];
+    //     double d=Math.sqrt((x*x)+(y*y));
+    //     dist[i]=d;
+    //   }
+    //   return dist;
+    // }
     public int[][] kClosest(int[][] points, int k) {
         PriorityQueue<Pair>pq=new PriorityQueue<>(
             (a,b)->Double.compare(b.first, a.first)
         );
         int m=points.length;
-        double[]dist=distance(points,m);
+        //double[]dist=distance(points,m);
         for(int i=0;i<m;i++){
-            Pair p=new Pair(dist[i],i);
+            double x=points[i][0];
+            double y=points[i][1];
+            Pair p=new Pair(Math.sqrt((x*x)+(y*y)),i);
             if(pq.size()<k){
                 pq.add(p);
                 continue;
             }
             Pair p1=pq.peek();
-            if(p1.first<=dist[i]){
+            if(p1.first<=Math.sqrt((x*x)+(y*y))){
                continue;
             }
             pq.poll();
