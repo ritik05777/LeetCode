@@ -7,13 +7,13 @@ class Pair{
     }
 }
 class Solution {
-    public int [] close(int [] arr,int x,int n){
-        int [] ans =new int[n];
-        for(int i=0;i<n;i++){
-            ans[i]=Math.abs(arr[i]-x);
-        }
-        return ans;
-    }
+    // public int [] close(int [] arr,int x,int n){
+    //     int [] ans =new int[n];
+    //     for(int i=0;i<n;i++){
+    //         ans[i]=Math.abs(arr[i]-x);
+    //     }
+    //     return ans;
+    // }
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         PriorityQueue<Pair>pq=new PriorityQueue<>(
             (a,b)->{
@@ -24,15 +24,16 @@ class Solution {
             }
         );
         int n=arr.length;
-        int [] abs=close(arr,x,n);
+        //int [] abs=close(arr,x,n);
         for(int i=0;i<n;i++){
-            Pair p=new Pair(abs[i],arr[i]);
+         
+            Pair p=new Pair(Math.abs(arr[i]-x),arr[i]);
             if(pq.size()<k){
                 pq.add(p);
                 continue;
             }
             Pair p1=pq.peek();
-            if(p1.first<=abs[i]){
+            if(p1.first<=Math.abs(arr[i]-x)){
                 continue;
             }
             pq.poll();
