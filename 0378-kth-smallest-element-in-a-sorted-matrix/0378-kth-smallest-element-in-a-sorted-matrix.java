@@ -1,21 +1,34 @@
+class pair{
+    int el;
+    int row;
+    int col;
+    pair(int e,int r,int c){
+        el=e;
+        row=r;
+        col=c;
+    }
+}
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
+        PriorityQueue<pair>pq=new PriorityQueue<>(
+            (a,b) -> a.el-b.el
+        );
         int n=matrix.length;
-        PriorityQueue<Integer>pq=new PriorityQueue<>(Collections.reverseOrder());
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                if(pq.size()<k){
-                pq.add(matrix[i][j]);
-                continue;
-                }
-                if(pq.peek()<=matrix[i][j]){
-                    continue;
-                }
-                pq.poll();
-                pq.add(matrix[i][j]);
-            }
-
+        int m=matrix[0].length;
+        for(int row=0;row<n;row++){
+            pq.add(new pair(matrix[row][0],row,0));
         }
-        return pq.peek();
+        int counter=0;
+        while(!pq.isEmpty()){
+            pair p=pq.poll();
+            counter++;
+            if(counter==k){
+                return p.el;
+            }
+            if(p.col+1<m){
+                pq.add(new pair(matrix[p.row][p.col+1],p.row,p.col+1));
+            }
+        }
+        return-1;
     }
 }
