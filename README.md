@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/ritik05777/LeetCode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/ritik05777/LeetCode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ritik05777/LeetCode/tree/master/0202-happy-number) |
+| [0509-fibonacci-number](https://github.com/ritik05777/LeetCode/tree/master/0509-fibonacci-number) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/ritik05777/LeetCode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0973-k-closest-points-to-origin](https://github.com/ritik05777/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Bit Manipulation
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/ritik05777/LeetCode/tree/master/0118-pascals-triangle) |
 | [0152-maximum-product-subarray](https://github.com/ritik05777/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/ritik05777/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0509-fibonacci-number](https://github.com/ritik05777/LeetCode/tree/master/0509-fibonacci-number) |
 | [0918-maximum-sum-circular-subarray](https://github.com/ritik05777/LeetCode/tree/master/0918-maximum-sum-circular-subarray) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ritik05777/LeetCode/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/ritik05777/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/ritik05777/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/ritik05777/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/ritik05777/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0509-fibonacci-number](https://github.com/ritik05777/LeetCode/tree/master/0509-fibonacci-number) |
 ## Stack
 |  |
 | ------- |
@@ -365,4 +368,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/ritik05777/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/ritik05777/LeetCode/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
